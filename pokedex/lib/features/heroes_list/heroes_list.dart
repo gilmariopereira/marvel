@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pokedex/models/heroes.dart';
-import 'package:pokedex/services/pokemon_service.dart';
+import 'package:pokedex/services/marvel_service.dart';
 import 'heroes_list_cell.dart';
 
 class HeroesListPage extends StatefulWidget {

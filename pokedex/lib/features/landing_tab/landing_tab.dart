@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/features/pokemon_grid/marvel_grid.dart';
-import 'package:pokedex/features/pokemon_list/pokemon_list.dart';
-import 'package:pokedex/services/pokemon_service.dart';
+import 'package:pokedex/features/heroes_grid/marvel_grid.dart';
+import 'package:pokedex/features/heroes_list/heroes_list.dart';
+import 'package:pokedex/services/marvel_service.dart';
 
 class LandingTabPage extends StatelessWidget {
   @override
@@ -16,9 +16,7 @@ class LandingTabPage extends StatelessWidget {
             BottomNavigationBarItem(
                 title: Text("List"), icon: Icon(CupertinoIcons.news)),
             BottomNavigationBarItem(
-                title: Text("Grid"), icon: Icon(CupertinoIcons.news)),
-            BottomNavigationBarItem(
-                title: Text("Add"), icon: Icon(CupertinoIcons.add_circled)),
+                title: Text("Grid"), icon: Icon(CupertinoIcons.news)),           
           ],
         ),
         tabBuilder: (context, index) {

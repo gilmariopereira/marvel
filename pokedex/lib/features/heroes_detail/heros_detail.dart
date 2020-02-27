@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pokedex/models/heroes.dart';
-import 'package:pokedex/services/pokemon_service.dart';
+import 'package:pokedex/services/marvel_service.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 class HerosDetail extends StatefulWidget {

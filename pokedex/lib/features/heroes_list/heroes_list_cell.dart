@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/features/pokemon_detail/heros_detail.dart';
+import 'package:pokedex/features/heroes_detail/heros_detail.dart';
 import 'package:pokedex/models/heroes.dart';
-import 'package:pokedex/services/pokemon_service.dart';
+import 'package:pokedex/services/marvel_service.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 class HeroesListPageCell extends StatelessWidget {
