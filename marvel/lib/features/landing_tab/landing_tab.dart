@@ -24,7 +24,7 @@ class LandingTabPage extends StatelessWidget {
             case 0:
               return CupertinoTabView(
                   builder: (BuildContext context) =>
-                      HeroesListPage(PokemonServiceImpl()));
+                      HeroesListPage(MarvelServiceImpl()));
           }
 
           return CupertinoTabView(

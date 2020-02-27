@@ -6,7 +6,7 @@ import 'package:marvel/services/marvel_service.dart';
 import 'heroes_list_cell.dart';
 
 class HeroesListPage extends StatefulWidget {
-  PokemonService service = PokemonServiceImpl();
+  MarvelService service = MarvelServiceImpl();
 
   HeroesListPage([this.service]);
 

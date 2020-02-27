@@ -15,7 +15,7 @@ class HeroesListPageCell extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.of(context).push(CupertinoPageRoute(
-            builder: (context) => HerosDetail(model, PokemonServiceImpl())));
+            builder: (context) => HerosDetail(model, MarvelServiceImpl())));
       },
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

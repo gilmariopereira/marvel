@@ -8,15 +8,15 @@ import 'package:transparent_image/transparent_image.dart';
 
 class HerosDetail extends StatefulWidget {
   final AllHeroesReponse model;
-  PokemonService service = PokemonServiceImpl();
+  MarvelService service = MarvelServiceImpl();
 
   HerosDetail([this.model, this.service]);
 
   @override
-  _PokemonDetailState createState() => _PokemonDetailState();
+  _MarvelDetailState createState() => _MarvelDetailState();
 }
 
-class _PokemonDetailState extends State<HerosDetail> {
+class _MarvelDetailState extends State<HerosDetail> {
   AllHeroesReponse heroesResponseModel;
 
   @override
