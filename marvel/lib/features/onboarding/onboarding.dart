@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/features/landing_tab/landing_tab.dart';
-import 'package:pokedex/features/onboarding/onboarding_page_child.dart';
+import 'package:marvel/features/landing_tab/landing_tab.dart';
+import 'package:marvel/features/onboarding/onboarding_page_child.dart';
 
 class OnboardingPage extends StatelessWidget {
   final PageController controller = PageController();
